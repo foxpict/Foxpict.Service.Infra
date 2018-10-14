@@ -1,4 +1,5 @@
 using Foxpict.Service.Infra.Extention;
+using Hyperion.Pf.Entity;
 
 namespace Foxpict.Service.Infra
 {
@@ -9,8 +10,5 @@ namespace Foxpict.Service.Infra
     {
         void RegisterMessage(string messageName, IExtentionMetaInfo extention, MessageCallback callback);
         void UnegisterMessage(string messageName, IExtentionMetaInfo extention, MessageCallback callback);
-        void Dispatcher(string messageName, int param);
-        void Dispatcher(string messageName, long param);
-        void Dispatcher(string messageName, string param);
     }
 }

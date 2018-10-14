@@ -13,5 +13,7 @@ namespace Foxpict.Service.Infra
         int getInt();
         long getLong();
         string getString();
+
+        object getObject();
     }
 }
